@@ -16,8 +16,8 @@ public class UserService {
     @Autowired
     private UserDao userDao;
 
-    @Autowired
-    private RoleDao roleDao;
+//    @Autowired
+//    private RoleDao roleDao;
 
     public User registerNewUser(User user){
         return userDao.save(user);

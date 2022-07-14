@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DoctorProjectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("*****************ALL IS CONNECTED*************");
+		System.out.println("ALL IS CONNECTED");
 		SpringApplication.run(DoctorProjectApplication.class, args);
 	}
 
